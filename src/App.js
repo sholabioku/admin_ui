@@ -1,85 +1,16 @@
+import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
+
+import './app.css';
 
 function App() {
   return (
     <div>
       <Topbar />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
-      tets
-      <br />
+      <div className='container'>
+        <Sidebar />
+        <div className='others'>Other pages</div>
+      </div>
     </div>
   );
 }
