@@ -24,7 +24,7 @@ const UserList = () => {
           <div className='userListUser'>
             <img
               src={params.row.avatar}
-              alt={params.row.user}
+              alt={params.row.username}
               className='userListImg'
             />
             {params.row.username}

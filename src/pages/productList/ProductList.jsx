@@ -23,7 +23,7 @@ const ProductList = () => {
           <div className='productListItem'>
             <img
               src={params.row.img}
-              alt={params.row.product}
+              alt={params.row.name}
               className='productListImg'
             />
             {params.row.name}
